@@ -7,31 +7,47 @@ const Movies = () => {
       <h4>Recommended for You</h4>
       <Content>
         <Wrap>
-          <img src="images/animation/anim-1.jpg" alt="" />
+          <a href="/details">
+            <img src="images/animation/anim-1.jpg" alt="" />
+          </a>
         </Wrap>
         <Wrap>
-          <img src="images/animation/anim-2.jpg" alt="" />
+          <a href="/details">
+            <img src="images/animation/anim-2.jpg" alt="" />
+          </a>
         </Wrap>
         <Wrap>
-          <img src="images/animation/anim-3.jpg" alt="" />
+          <a href="/details">
+            <img src="images/animation/anim-3.jpg" alt="" />
+          </a>
         </Wrap>
         <Wrap>
-          <img src="images/animation/anim-4.jpg" alt="" />
+          <a href="/details">
+            <img src="images/animation/anim-4.jpg" alt="" />
+          </a>
         </Wrap>
-
         {/* Start Row-2 */}
         <Wrap>
-          <img src="images/animation/anim-4.jpg" alt="" />
+          <a href="/details">
+            <img src="images/animation/anim-4.jpg" alt="" />
+          </a>
         </Wrap>
         <Wrap>
-          <img src="images/animation/anim-3.jpg" alt="" />
+          <a href="/details">
+            <img src="images/animation/anim-3.jpg" alt="" />
+          </a>
         </Wrap>
         <Wrap>
-          <img src="images/animation/anim-2.jpg" alt="" />
+          <a href="/details">
+            <img src="images/animation/anim-2.jpg" alt="" />
+          </a>
         </Wrap>
         <Wrap>
-          <img src="images/animation/anim-1.jpg" alt="" />
+          <a href="/details">
+            <img src="images/animation/anim-1.jpg" alt="" />
+          </a>
         </Wrap>
+        <br /> <br />
       </Content>
     </Container>
   );

@@ -31,13 +31,14 @@ const Header = () => {
           <span>MOVIES</span>
         </a>
 
-        <a href="/">
+        <a href="/login">
           <img src="images/series-icon.svg" alt="" />
-          <span>SERIES</span>
+          <span>Contact</span>
         </a>
       </NavMenu>
-
-      <UserImg src="https://avatars.githubusercontent.com/u/89186898?v=4" />
+      <a href="/login">
+        <UserImg src="https://avatars.githubusercontent.com/u/89186898?v=4" />
+      </a>
     </Nav>
   );
 };
@@ -50,11 +51,12 @@ const Nav = styled.nav`
   display: flex;
   align-items: center;
   padding: 0 360;
-  overflow-x:hidden;
+  overflow-x: hidden;
 `;
 
 const Logo = styled.img`
   width: 80px;
+  padding-left: 15px;
 `;
 
 const NavMenu = styled.div`
@@ -91,4 +93,5 @@ const UserImg = styled.img`
   height: 48px;
   border-radius: 50%;
   cursor: pointer;
+  margin-right: 15px;
 `;

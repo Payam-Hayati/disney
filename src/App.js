@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 //import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Details from "./components/Details";
 import Login from "./components/Login";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
           <Route path="/login" element={<Login />}></Route>
         </Routes>
       </Router>
+
+      <Footer />
     </div>
   );
 }

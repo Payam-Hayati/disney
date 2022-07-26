@@ -7,7 +7,7 @@ const Footer = () => {
       <Boxes>
         <div class="parent">
           <div class="child">
-            <h6>Products</h6>
+            <span>Products</span>
             <ul>
               <li>Privacy Policy Generator</li>
               <li>Terms & Conditions Generator</li>
@@ -18,11 +18,46 @@ const Footer = () => {
               <li>Terms of Service Generator</li>
               <li>Terms of Use Generator</li>
             </ul>
-            
           </div>
-          <div class="child"></div>
-          <div class="child"></div>
-          <div class="child"></div>
+          <div class="child">
+            <span>Products</span>
+            <ul>
+              <li>Privacy Policy Generator</li>
+              <li>Terms & Conditions Generator</li>
+              <li>Cookies Policy Generator</li>
+              <li>Return & Refund Policy Generator</li>
+              <li>EULA Generator</li>
+              <li>Disclaimer Generator</li>
+              <li>Terms of Service Generator</li>
+              <li>Terms of Use Generator</li>
+            </ul>
+          </div>
+          <div class="child">
+            <span>Products</span>
+            <ul>
+              <li>Privacy Policy Generator</li>
+              <li>Terms & Conditions Generator</li>
+              <li>Cookies Policy Generator</li>
+              <li>Return & Refund Policy Generator</li>
+              <li>EULA Generator</li>
+              <li>Disclaimer Generator</li>
+              <li>Terms of Service Generator</li>
+              <li>Terms of Use Generator</li>
+            </ul>
+          </div>
+          <div class="child">
+            <span>Products</span>
+            <ul>
+              <li>Privacy Policy Generator</li>
+              <li>Terms & Conditions Generator</li>
+              <li>Cookies Policy Generator</li>
+              <li>Return & Refund Policy Generator</li>
+              <li>EULA Generator</li>
+              <li>Disclaimer Generator</li>
+              <li>Terms of Service Generator</li>
+              <li>Terms of Use Generator</li>
+            </ul>
+          </div>
         </div>
       </Boxes>
     </Container>
@@ -49,14 +84,23 @@ const Boxes = styled.div`
     flex: 1 0 21%; /* explanation below */
     margin: 5px;
     height: auto;
-    text-align:left;
-    // padding: 10px;
-    background-color: blue;
+    text-align: left;
 
-    ul{
-        list-style-type:none;
-        padding:0;
+    padding: 20px;
+    line-height: 1.8;
+
+    span {
+      font-weight: bold;
     }
-    
+
+    ul {
+      list-style-type: none;
+      padding-left: 10px;
+
+      li:hover {
+        color: #007acc;
+        cursor: pointer;
+      }
+    }
   }
 `;
